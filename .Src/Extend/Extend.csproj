@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard1.1</TargetFramework>
+    <TargetFrameworks>netstandard1.1;netstandard2.1</TargetFrameworks>
     <AssemblyName>Extend</AssemblyName>
     <RootNamespace>Extend</RootNamespace>
     <PackageId>Extend</PackageId>
