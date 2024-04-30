@@ -16,7 +16,7 @@
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/DaveSenn/Extend</PackageProjectUrl>
-    <PackageIconUrl>https://raw.githubusercontent.com/DaveSenn/Extend/master/.Art/logo.png</PackageIconUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/DaveSenn/Extend</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>C# Extensions Extend Portable Extension Methods .Net Library PCL Standard Core</PackageTags>
@@ -38,4 +38,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 </Project>
